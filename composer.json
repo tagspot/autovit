@@ -11,8 +11,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "adrian",
+            "name": "Adrian Bărbos",
             "email": "adrian@tagspot.ro"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "tagspot\\autovit" : "./src"
+        }
+    }
 }
